@@ -1,0 +1,90 @@
+body {                                        /*Classe per gestire immagine di sfondo*/
+  background-image: url("background.jpg");
+  background-repeat: no-repeat, repeat; 
+  background-size: cover;
+   }
+
+.logo{                                        /*Classe per gestire dimensione logo nel div contenitore*/
+  width: 200px;
+}
+
+.logo-cont{                                   /*Classe per gestire allinemento logo*/
+  text-align: center;
+  padding-top: 150px;
+}
+
+img{                                         /*Classe per consenitre il text-aling su immagine logo*/
+  display: block;
+  margin: 0 auto;
+}
+
+h2{                                           /*Classe per gestire colore,allineamento e font titolo sotto il logo*/
+  color: rgb(4, 207, 4);
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.contenitore {                                /*Classe per gestire contenitore centrale pagina*/
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 18px;
+    width: 1200px; 
+    margin: auto;
+  }
+
+.bottoni{                                   /*Classe per gestire contenitore bottoni*/
+    text-align: center;
+    background-color: rgb(4, 207, 4);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+}
+
+.buttonPos{                     /*centramento bottoni*/
+  align-items: center;
+}
+
+
+.monopattinoGino{             /*posizionamento monopattino 1*/
+  padding-left: 150px;
+  padding-top: 20px;
+
+}
+
+.monopattinoMike{             /*posizionamento monopattino 2*/
+  padding-left: 150px;
+  padding-top: 20px;
+
+}
+
+.monopattinoFede{             /*posizionamento monopattino 3*/
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 130px;
+
+}
+
+.coloretesto{                 /*gestione colore e font testo monopattini*/
+  color: aliceblue;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.caricaGino{                /*Barra stato carica monopattino 1*/
+  width: 330px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: coral;
+}
+
+.caricaMike{                /*Barra stato carica monopattino 2*/
+  width: 600px; 
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(4, 207, 4);
+}
+
+.caricaFede{                /*Barra stato carica monopattino 3*/
+  width: 170px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: brown;
+}
